@@ -64,3 +64,46 @@ body{
     margin-top: auto;
 }
 
+.news{
+    width: 96%;
+    background-image: url(/assets/images/background_blue.webp);
+    border-style: solid;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 25px;
+    display: block;
+}
+
+#s_change{
+    border-style: solid;
+    display: inline;
+    width: 100px;
+    border-color: black;
+    margin-top: 10px;
+    background-image: url(/assets/images/background_blue.webp);
+    padding: 5px;
+    border-radius: 15px;
+}
+#s_change:hover{
+    border-style: solid;
+    display: inline;
+    width: 120px;
+    border-color: black;
+    margin-top: 10px;
+    background-image: url(/assets/images/background\ purple.jpg);
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+#s_change:active{
+    border-style: solid;
+    display: inline;
+    width: 120px;
+    border-color: black;
+    margin-top: 10px;
+    background-image: url(/assets/images/background\ purple.jpg);
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
