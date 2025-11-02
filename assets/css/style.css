@@ -46,18 +46,21 @@ body{
     cursor: grab;
 }
 
-#link{
+.link{
     color: rgb(194, 49, 194);
     cursor: pointer;
+    font-family: "Comic",Arial;
 }
 
 #link:hover{
     color: rgb(231, 73, 231);
     font-size: 1.1em;
+    font-family: "Comic",Arial;
 }
 
 #link:visited{
     color: blue;
+    font-family: "Comic",Arial;
 }
 
 .imp{
