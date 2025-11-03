@@ -116,9 +116,3 @@ body{
     border-radius: 15px;
 }
 
-#cat{
-    border-style: solid;
-    border-width: 2px;
-    border-radius: 9px;
-    background-image: url(/assets/images/background\ purple.jpg);
-}
