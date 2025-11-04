@@ -7,3 +7,7 @@
 .text{
     margin-left: 10px;
 }
+
+.impo{
+    text-shadow: 2px 2px 3px violet;
+}
