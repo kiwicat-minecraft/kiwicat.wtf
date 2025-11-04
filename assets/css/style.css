@@ -46,6 +46,15 @@ body{
     cursor: grab;
 }
 
+#kiwi_review{
+    float: right;
+    display: inline;
+}
+#kiwi_review:hover{
+    transform: rotateZ(-30deg);
+    cursor: grab;
+}
+
 .link{
     color: rgb(194, 49, 194);
     cursor: pointer;
@@ -85,18 +94,20 @@ body{
 
 #s_change{
     border-style: solid;
-    display: inline;
-    width: 100px;
+    display: block;
+    width: 75%;
     border-color: black;
-    margin-top: 10px;
+    
     background-image: url(/assets/images/background_blue.webp);
     padding: 5px;
     border-radius: 15px;
+    margin: auto;
+    margin-top: 15px;
 }
 #s_change:hover{
     border-style: solid;
-    display: inline;
-    width: 120px;
+    display: block;
+    width: 90%;
     border-color: black;
     margin-top: 10px;
     background-image: url(/assets/images/background\ purple.jpg);
@@ -106,8 +117,8 @@ body{
 }
 #s_change:active{
     border-style: solid;
-    display: inline;
-    width: 120px;
+    display: block;
+    width: 90%;
     border-color: black;
     margin-top: 10px;
     background-image: url(/assets/images/background\ purple.jpg);
