@@ -137,3 +137,41 @@ body{
     display: inline;
     min-width: fit-content;
 }
+
+.dropdown button{
+    background-image: url(/assets/images/background_blue.webp);
+    color: black;
+    padding: 10px 15px;
+    border: solid;
+    border-width: 2px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.dropdown a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.dropdown .content{
+    border-radius: 5px;
+    display: none;
+    background-image: url(/assets/images/background\ purple.jpg);
+    position: absolute;
+    min-width: 100px;
+    box-shadow: 2px 2px 5px black;
+
+}
+.dropdown:hover .content{
+    display: block;
+}
+
+.dropdown:hover button{
+    background-image: url(/assets/images/background\ purple.jpg);
+}
+.dropdown a:hover{
+    background-image: url(/assets/images/background_blue.webp);
+}
+.dropdown{
+    display: inline;
+}
