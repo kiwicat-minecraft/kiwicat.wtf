@@ -40,6 +40,7 @@ body{
 
 #kiwi{
     float: left;
+    width: 10%;
 }
 #kiwi:hover{
     transform: rotateZ(-30deg);
@@ -49,6 +50,7 @@ body{
 #kiwi_review{
     float: right;
     display: inline;
+    width: 10%;
 }
 #kiwi_review:hover{
     transform: rotateZ(-30deg);
@@ -133,4 +135,5 @@ body{
     border-radius: 9px;
     background-image: url(/assets/images/background\ purple.jpg);
     display: inline;
+    min-width: fit-content;
 }
