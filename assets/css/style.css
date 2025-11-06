@@ -8,7 +8,7 @@ body{
     background-image: url(/assets/images/background\ pink.jpg);
     background-repeat: repeat-y;
 }
-#title{
+.title{
     color: palevioletred;
     font-family: "Comic", Arial;
 }
@@ -43,8 +43,10 @@ body{
     width: 10%;
 }
 #kiwi:hover{
-    transform: rotateZ(-30deg);
+    
     cursor: grab;
+    animation-name: Bat;
+    animation-duration: 1s;
 }
 
 #kiwi_review{
@@ -53,8 +55,9 @@ body{
     width: 10%;
 }
 #kiwi_review:hover{
-    transform: rotateZ(-30deg);
     cursor: grab;
+    animation-name: Bat;
+    animation-duration: 1s;
 }
 
 .link{
@@ -174,4 +177,22 @@ body{
 }
 .dropdown{
     display: inline;
+}
+
+@keyframes Bat{
+    100%{transform: rotateZ(360deg);}
+}
+
+#nyan_cat{
+    height: 100px;
+    display: inline;
+    transform: rotateZ(100px);
+    animation-name: nyan_cat;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes nyan_cat{
+    from{transform: translateX(-1000px);}
+    100%{transform: translateX(2000px);}
 }
