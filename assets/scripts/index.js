@@ -24,3 +24,25 @@ console.log("Stop spying and go to my youtube :3");
 //.includes() for stuff included
 //.replaceAll("-","/") makes - to /
 
+/*
+const pers1 = {
+    age: 2,
+    first_name: "Kiwi",
+};
+
+console.log(pers1.first_name); // will give Kiwi
+*/
+
+/*
+class Animal{
+    alive = true;
+
+}
+class Cat extends Animal{
+    name = "cat";
+}
+
+const cat = new Cat()
+
+console.log(cat.alive); // will give true
+*/
