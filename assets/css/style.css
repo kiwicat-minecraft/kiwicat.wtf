@@ -214,6 +214,7 @@ body{
     font-size: 2em;
     background-image: url(/assets/images/background_blue.webp);
     border-width: 1px;
+    border-radius: 10px;
 }
 .c_button:hover{
     background-image: url(/assets/images/background\ purple.jpg);
