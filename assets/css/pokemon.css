@@ -13,6 +13,7 @@ body{
     margin-top: 20px;
     font-family: Comic,Arial;
     width: 40%;
+    max-height: 300px;
 }
 
 #search{
@@ -25,7 +26,7 @@ body{
 }
 
 #pokemon_sprite{
-    width: 70%;
+    width: 40%;
     image-rendering: pixelated;
     margin: auto;
 }
@@ -36,4 +37,7 @@ body{
 h1{
     font-family: Comic,Arial;
     color: palevioletred;
+}
+.info{
+    margin: auto;
 }
