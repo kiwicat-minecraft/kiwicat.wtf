@@ -1,0 +1,39 @@
+body{
+    background-image: url(/assets/images/background\ pink.jpg);
+}
+@font-face {
+    font-family: Comic;
+    src: url(/assets/fonts/Comic_Neue/ComicNeue-Regular.ttf);
+}
+
+#pokemon_in{
+    border-radius: 5px;
+    background-image: url(/assets/images/background_blue.webp);
+    margin: auto;
+    margin-top: 20px;
+    font-family: Comic,Arial;
+    width: 40%;
+}
+
+#search{
+    background-image: url(/assets/images/background_blue.webp);
+    border-radius: 5px;
+    margin: auto;
+}
+#search:hover{
+    background-image: url(/assets/images/background_green.jpg);
+}
+
+#pokemon_sprite{
+    width: 70%;
+    image-rendering: pixelated;
+    margin: auto;
+}
+
+#label{
+    margin: auto;
+}
+h1{
+    font-family: Comic,Arial;
+    color: palevioletred;
+}

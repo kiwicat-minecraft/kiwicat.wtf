@@ -35,14 +35,35 @@ console.log(pers1.first_name); // will give Kiwi
 
 /*
 class Animal{
+    constructor(name){
+        this.name = name
+    }
     alive = true;
+
 
 }
 class Cat extends Animal{
-    name = "cat";
+    
 }
 
-const cat = new Cat()
+const cat = new Cat("cat")
 
-console.log(cat.alive); // will give true
+console.log(cat.name); // will give true
 */
+
+/*
+let a = 1;
+let b = 2;
+
+[a,b] = [b,a]; makes a to be and b to a
+*/
+const date = new Date()
+
+let hours = date.getHours()
+let minutes = date.getMinutes()
+
+console.log(`Its right now: ${hours}:${minutes}`)
+
+
+
+
