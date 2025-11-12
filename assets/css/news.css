@@ -11,3 +11,12 @@
 .impo{
     text-shadow: 2px 2px 3px violet;
 }
+
+.spoiler{
+    border-radius: 4px;
+    background-color: black;
+}
+
+.spoiler:hover{
+    background-color: white;
+}
