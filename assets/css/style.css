@@ -234,3 +234,25 @@ body{
     border-width: 2px;
     height: 25px;
 }
+
+.nav_b{
+    border: 2px solid;
+    border-radius: 4px;
+    padding: 3px;
+    margin-left: auto;
+    background-image: url(/assets/images/background_blue.webp);
+    text-decoration: none;
+    color: black;
+    width: 10%;
+    height: 10%;
+}
+.nav_b:hover{
+    background-image: url(/assets/images/background_green.jpg);
+}
+#navbar{
+    border-radius: 0px;
+    width: 90%;
+    margin: auto;
+    background-image: url(/assets/images/background\ purple.jpg);
+}
+
