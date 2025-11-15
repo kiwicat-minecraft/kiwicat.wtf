@@ -30,7 +30,7 @@ async function fetchData(forceName){
         }
 
         const pokemonSprite = `https://minotar.net/armor/body/${pokemonName}/100.png`;
-        const imgEle = document.getElementById("pokemon_sprite");
+        const imgEle = document.getElementById("skin_sprite");
         const nameEle = document.getElementById("name");
 
         nameEle.textContent = pokemonName;

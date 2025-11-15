@@ -30,6 +30,12 @@ body{
     image-rendering: pixelated;
     margin: auto;
 }
+#skin_sprite{
+    width: 40%;
+    image-rendering: pixelated;
+    margin: auto;
+}
+
 
 #label{
     margin: auto;
