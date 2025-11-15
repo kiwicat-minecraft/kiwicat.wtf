@@ -41,3 +41,12 @@ h1{
 .info{
     margin: auto;
 }
+#skin_in{
+    border-radius: 5px;
+    background-image: url(/assets/images/background_blue.webp);
+    margin: auto;
+    margin-top: 20px;
+    font-family: Comic,Arial;
+    width: 40%;
+    max-height: 300px;
+}
