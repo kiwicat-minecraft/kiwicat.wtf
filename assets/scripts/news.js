@@ -2,6 +2,7 @@
 
 let open_news = 6;
 let max_news = 6;
+change_page(open_news);
 
 function left(){
     if(open_news != 1){
