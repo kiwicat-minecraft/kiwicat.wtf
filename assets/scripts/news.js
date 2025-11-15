@@ -1,6 +1,6 @@
 
 
-let open_news = 1;
+let open_news = 6;
 let max_news = 6;
 
 function left(){
