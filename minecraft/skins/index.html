@@ -8,7 +8,6 @@ $embedImage = $skin
     ? "https://minotar.net/armor/body/$skinEncoded/100.png"
     : "https://kiwicat.cat/assets/images/avatar.webm";
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,22 +15,24 @@ $embedImage = $skin
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minecraft Skin Finder</title>
     <link rel="stylesheet" href="/assets/css/pokemon.css">
+
     <meta property="og:image" content="<?php echo $embedImage; ?>">
 </head>
 <body align="center">
+
     <a href="/" style="text-decoration: none;"><h1>KiwiData</h1></a>
     
     <label id="label">Username</label>
-        <input id="skin_in" type="text" placeholder="Enter Username..." value="<?php echo $skinEncoded; ?>">
 
-        <button onclick="fetchData()" id="search">search</button>
-        <br>
-        <img src="" alt="Pokemon Sprite" id="skin_sprite" style="display: none;">
+    <input id="skin_in" type="text" placeholder="Enter Username..." value="<?php echo $skinEncoded; ?>">
 
+    <button onclick="fetchData()" id="search">search</button>
 
-        <h3 class="info" id="name"></h3>
-        
+    <br>
 
-        <script src="/assets/scripts/skins.js"></script>
+    <img src="" alt="Skin" id="skin_sprite" style="display: none;">
+    <h3 class="info" id="name"></h3>
+
+    <script src="/assets/scripts/skins.js"></script>
 </body>
 </html>
