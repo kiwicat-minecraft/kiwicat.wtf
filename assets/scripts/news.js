@@ -1,6 +1,17 @@
-
-
 let open_news = 7;
+
+window.addEventListener("DOMContentLoaded", () => {
+    const params = new URLSearchParams(window.location.search);
+    const q = params.get("news");
+
+    if (q) {
+        open_news = Number(q);
+        change_page(q);
+    }
+});
+
+
+
 let max_news = 7;
 change_page(open_news);
 
@@ -20,4 +31,6 @@ function right(){
 function change_page(page){
     document.getElementById("news_main").src = `/news/news_${page}.html`;
     document.getElementById("news_count").innerText = `News: ${page}`;
+    let newURL = window.location.pathname + "?news=" + encodeURIComponent(page);
+    history.pushState({}, "", newURL);
 }
