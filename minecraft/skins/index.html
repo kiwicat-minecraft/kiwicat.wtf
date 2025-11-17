@@ -1,13 +1,4 @@
-<?php
 
-$skin = isset($_GET["skin"]) ? $_GET["skin"] : "";
-$skinEncoded = htmlspecialchars($skin, ENT_QUOTES);
-
-
-$embedImage = $skin 
-    ? "https://minotar.net/armor/body/$skinEncoded/100.png"
-    : "https://kiwicat.cat/assets/images/avatar.webm";
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,7 +10,6 @@ $embedImage = $skin
     <meta property="og:url" content="https://kiwicat.cat/minecraft/skins/?skin=<?php echo urlencode($skinEncoded); ?>">
     <meta property="og:title" content="Minecraft Skin Finder">
     <meta property="og:description" content="Kiwicat Data Skin Finder for Java">
-    <meta property="og:image" content="<?php echo $embedImage; ?>">
     <meta property="og:image:width" content="100">
     <meta property="og:image:height" content="100">
 
@@ -31,7 +21,7 @@ $embedImage = $skin
     
     <label id="label">Username</label>
 
-    <input id="skin_in" type="text" placeholder="Enter Username..." value="<?php echo $skinEncoded; ?>">
+    <input id="skin_in" type="text" placeholder="Enter Username...">
 
     <button onclick="fetchData()" id="search">search</button>
 
