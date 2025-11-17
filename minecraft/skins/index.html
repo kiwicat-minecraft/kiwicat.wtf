@@ -22,7 +22,8 @@ $embedImage = $skin
     <a href="/" style="text-decoration: none;"><h1>KiwiData</h1></a>
     
     <label id="label">Username</label>
-        <input id="skin_in" type="text" placeholder="Enter Username...">
+        <input id="skin_in" type="text" placeholder="Enter Username..." value="<?php echo $skinEncoded; ?>">
+
         <button onclick="fetchData()" id="search">search</button>
         <br>
         <img src="" alt="Pokemon Sprite" id="skin_sprite" style="display: none;">
