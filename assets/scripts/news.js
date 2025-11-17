@@ -1,7 +1,7 @@
 
 
-let open_news = 6;
-let max_news = 6;
+let open_news = 7;
+let max_news = 7;
 change_page(open_news);
 
 function left(){
