@@ -1,3 +1,14 @@
+<?php
+
+$skin = isset($_GET["skin"]) ? $_GET["skin"] : "";
+$skinEncoded = htmlspecialchars($skin, ENT_QUOTES);
+
+
+$embedImage = $skin 
+    ? "https://minotar.net/armor/body/$skinEncoded/100.png"
+    : "https://kiwicat.cat/assets/images/avatar.webm";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +16,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minecraft Skin Finder</title>
     <link rel="stylesheet" href="/assets/css/pokemon.css">
-    <meta id="embed" property="og:image" content="https://kiwicat.cat/assets/images/avatar.webm">
+    <meta property="og:image" content="<?php echo $embedImage; ?>">
 </head>
 <body align="center">
     <a href="/" style="text-decoration: none;"><h1>KiwiData</h1></a>
