@@ -1,4 +1,4 @@
-let open_news = 7;
+let open_news = 8;
 
 window.addEventListener("DOMContentLoaded", () => {
     const params = new URLSearchParams(window.location.search);
@@ -12,7 +12,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
 
 
-let max_news = 7;
+let max_news = 8;
 change_page(open_news);
 
 function left(){
