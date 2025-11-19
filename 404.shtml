@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 Error</title>
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <div class="text">
+        <h1 id="title">Error 404</h1>
+        <p>It seems like we didn't find that Page.
+            We are really sowwy for the error.
+        </p>
+        <a class="link" id="s_change" href="/" style="width: 100px;">Go Home</a>
+    </div>
+</body>
+</html>
