@@ -266,7 +266,8 @@ body{
     width: 230px;
     display: inline-block;
     margin: auto;
-    padding: 4px;
+    padding: 6px;
+    margin-top: 5px;
 }
 
 #review_icon{
@@ -290,6 +291,14 @@ body{
 }
 
 .review_link:visited{
-    color: blue;
     font-family: "Comic",Arial;
+}
+.spoiler{
+    border-radius: 4px;
+    background-color: black;
+    text-shadow: none;
+}
+
+.spoiler:hover{
+    background-color: white;
 }
