@@ -1,5 +1,5 @@
 body{
-    background-image: url(/assets/images/background\ pink.jpg);
+    background-image: url(/assets/images/background_pink.webp);
 }
 @font-face {
     font-family: Comic;
@@ -22,7 +22,7 @@ body{
     margin: auto;
 }
 #search:hover{
-    background-image: url(/assets/images/background_green.jpg);
+    background-image: url(/assets/images/background_green.webp);
 }
 
 #pokemon_sprite{

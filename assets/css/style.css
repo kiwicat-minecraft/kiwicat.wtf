@@ -5,7 +5,7 @@
 
 body{
     background-color: pink;
-    background-image: url(/assets/images/background\ pink.jpg);
+    background-image: url(/assets/images/background_pink.webp);
     background-repeat: repeat-y;
 }
 .title{
@@ -21,7 +21,7 @@ body{
     border-color: violet;
     border-radius: 20px;
     box-shadow: 3px 3px 3px;
-    background-image: url(/assets/images/background\ purple.jpg);
+    background-image: url(/assets/images/background_purple.webp);
     margin: auto;
     margin-top: 25px;
     margin-bottom: 25px;
@@ -115,7 +115,7 @@ body{
     width: 90%;
     border-color: black;
     margin-top: 10px;
-    background-image: url(/assets/images/background\ purple.jpg);
+    background-image: url(/assets/images/background_purple.webp);
     padding: 10px;
     font-size: 20px;
     border-radius: 15px;
@@ -126,7 +126,7 @@ body{
     width: 90%;
     border-color: black;
     margin-top: 10px;
-    background-image: url(/assets/images/background\ purple.jpg);
+    background-image: url(/assets/images/background_purple.webp);
     padding: 10px;
     font-size: 20px;
     border-radius: 15px;
@@ -136,7 +136,7 @@ body{
     border-style: solid;
     border-width: 2px;
     border-radius: 9px;
-    background-image: url(/assets/images/background\ purple.jpg);
+    background-image: url(/assets/images/background_purple.webp);
     display: inline;
     min-width: fit-content;
 }
@@ -159,7 +159,7 @@ body{
 .dropdown .content{
     border-radius: 5px;
     display: none;
-    background-image: url(/assets/images/background\ purple.jpg);
+    background-image: url(/assets/images/background_purple.webp);
     position: absolute;
     min-width: 100px;
     box-shadow: 2px 2px 5px black;
@@ -170,7 +170,7 @@ body{
 }
 
 .dropdown:hover button{
-    background-image: url(/assets/images/background\ purple.jpg);
+    background-image: url(/assets/images/background_purple.webp);
 }
 .dropdown a:hover{
     background-image: url(/assets/images/background_blue.webp);
@@ -198,7 +198,7 @@ body{
 }
 
 .calculator{
-    background-image: url(/assets/images/background_green.jpg);
+    background-image: url(/assets/images/background_green.webp);
     border-style: solid;
     border-radius: 10px;
     width: 300px;
@@ -217,7 +217,7 @@ body{
     border-radius: 10px;
 }
 .c_button:hover{
-    background-image: url(/assets/images/background\ purple.jpg);
+    background-image: url(/assets/images/background_purple.webp);
 }
 .c_row{
     padding-top: 10px ;
@@ -247,13 +247,13 @@ body{
     height: 10%;
 }
 .nav_b:hover{
-    background-image: url(/assets/images/background_green.jpg);
+    background-image: url(/assets/images/background_green.webp);
 }
 #navbar{
     border-radius: 0px;
     width: 90%;
     margin: auto;
-    background-image: url(/assets/images/background\ purple.jpg);
+    background-image: url(/assets/images/background_purple.webp);
 }
 
 .review{
