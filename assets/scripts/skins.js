@@ -18,7 +18,7 @@ async function fetchData(forceName){
     try{
        
         const pokemonName = forceName || document.getElementById("skin_in").value;
-        document.querySelector('meta[property="og:image"]').setAttribute(
+        document.getElementById("skin_sprite").setAttribute(
             "content",
             `https://minotar.net/armor/body/${pokemonName}/100.png`
             );
