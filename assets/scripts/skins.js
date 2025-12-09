@@ -18,12 +18,7 @@ async function fetchData(forceName){
     try{
        
         const pokemonName = forceName || document.getElementById("skin_in").value;
-        document.getElementById("skin_sprite").setAttribute(
-            "content",
-            `https://minotar.net/armor/body/${pokemonName}/100.png`
-            );
-
-
+        
         
         const newURL = window.location.pathname + "?skin=" + encodeURIComponent(pokemonName);
         history.pushState({}, "", newURL);
