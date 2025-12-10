@@ -9,7 +9,7 @@ if (strpos($host, 'localhost') !== false || strpos($host, '127.0.0.1') !== false
 ?>
 
 
-<!DOCTYPE php>
+<!DOCTYPE html>
 
 <html lang="en">
 
@@ -92,12 +92,12 @@ if (strpos($host, 'localhost') !== false || strpos($host, '127.0.0.1') !== false
             <br>
             <div class="text" id="newsb" style="width: 91%; margin: auto; height: 130%;">
                 <h2>News</h2>
-                <embed class="news" src="news/news_8.html" style="height: 70%;">
-                <embed class="news" src="news/news_7.html" style="height: 70%;">
-                <embed class="news" src="news/news_6.html" style="height: 70%;">
-                <embed class="news" src="news/news_5.html" style="height: 70%;">
-                <embed class="news" src="news/news_4.html" style="height: 70%;">
-                <embed class="news" src="news/news_3.html" style="height: 70%;">
+                <embed class="news" src="news/news_8.html" style="height: 300px;">
+                <embed class="news" src="news/news_7.html" style="height: 300px;">
+                <embed class="news" src="news/news_6.html" style="height: 300px;">
+                <embed class="news" src="news/news_5.html" style="height: 300px;">
+                <embed class="news" src="news/news_4.html" style="height: 300px;">
+                <embed class="news" src="news/news_3.html" style="height: 300px;">
                 
             </div>
 
