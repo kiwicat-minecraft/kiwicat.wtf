@@ -1,11 +1,22 @@
+<?php header("Content-type: text/css"); ?>
+<?php
+$host = $_SERVER['HTTP_HOST'];
+
+if (strpos($host, 'localhost') !== false || strpos($host, '127.0.0.1') !== false) {
+    $base_path = '/kiwicat.wtf/';
+} else {
+    $base_path = '/';
+}
+?>
+
 @font-face {
     font-family: Comic;
-    src: url(/assets/fonts/Comic_Neue/ComicNeue-Regular.ttf);
+    src: url(assets/fonts/Comic_Neue/ComicNeue-Regular.ttf);
 }
 
 body{
     background-color: pink;
-    background-image: url(/assets/images/background_pink.webp);
+    background-image: url('<?= $base_path ?>assets/images/background_pink.webp');
     background-repeat: repeat-y;
 }
 .title{
@@ -21,7 +32,7 @@ body{
     border-color: violet;
     border-radius: 20px;
     box-shadow: 3px 3px 3px;
-    background-image: url(/assets/images/background_purple.webp);
+    background-image: url(assets/images/background_purple.webp);
     margin: auto;
     margin-top: 25px;
     margin-bottom: 25px;
@@ -84,7 +95,7 @@ body{
 
 .news{
     width: 96%;
-    background-image: url(/assets/images/background_blue.webp);
+    background-image: url(assets/images/background_blue.webp);
     border-style: solid;
     border-radius: 10px;
     margin: auto;
@@ -103,7 +114,7 @@ body{
     width: 75%;
     border-color: black;
     
-    background-image: url(/assets/images/background_blue.webp);
+    background-image: url(assets/images/background_blue.webp);
     padding: 5px;
     border-radius: 15px;
     margin: auto;
@@ -115,7 +126,7 @@ body{
     width: 90%;
     border-color: black;
     margin-top: 10px;
-    background-image: url(/assets/images/background_purple.webp);
+    background-image: url(assets/images/background_purple.webp);
     padding: 10px;
     font-size: 20px;
     border-radius: 15px;
@@ -126,7 +137,7 @@ body{
     width: 90%;
     border-color: black;
     margin-top: 10px;
-    background-image: url(/assets/images/background_purple.webp);
+    background-image: url(assets/images/background_purple.webp);
     padding: 10px;
     font-size: 20px;
     border-radius: 15px;
@@ -136,13 +147,13 @@ body{
     border-style: solid;
     border-width: 2px;
     border-radius: 9px;
-    background-image: url(/assets/images/background_purple.webp);
+    background-image: url(assets/images/background_purple.webp);
     display: inline;
     min-width: fit-content;
 }
 
 .dropdown button{
-    background-image: url(/assets/images/background_blue.webp);
+    background-image: url(assets/images/background_blue.webp);
     color: black;
     padding: 10px 15px;
     border: solid;
@@ -159,7 +170,7 @@ body{
 .dropdown .content{
     border-radius: 5px;
     display: none;
-    background-image: url(/assets/images/background_purple.webp);
+    background-image: url(assets/images/background_purple.webp);
     position: absolute;
     min-width: 100px;
     box-shadow: 2px 2px 5px black;
@@ -170,10 +181,10 @@ body{
 }
 
 .dropdown:hover button{
-    background-image: url(/assets/images/background_purple.webp);
+    background-image: url(assets/images/background_purple.webp);
 }
 .dropdown a:hover{
-    background-image: url(/assets/images/background_blue.webp);
+    background-image: url(assets/images/background_blue.webp);
 }
 .dropdown{
     display: inline;
@@ -198,7 +209,7 @@ body{
 }
 
 .calculator{
-    background-image: url(/assets/images/background_green.webp);
+    background-image: url(assets/images/background_green.webp);
     border-style: solid;
     border-radius: 10px;
     width: 300px;
@@ -212,12 +223,12 @@ body{
     width: 50px;
     height: 50px;
     font-size: 2em;
-    background-image: url(/assets/images/background_blue.webp);
+    background-image: url(assets/images/background_blue.webp);
     border-width: 1px;
     border-radius: 10px;
 }
 .c_button:hover{
-    background-image: url(/assets/images/background_purple.webp);
+    background-image: url(assets/images/background_purple.webp);
 }
 .c_row{
     padding-top: 10px ;
@@ -228,7 +239,7 @@ body{
 
 #c_in{
     margin-top: 30px;
-    background-image: url(/assets/images/background_blue.webp);
+    background-image: url(assets/images/background_blue.webp);
     border-style: solid;
     border-radius: 10px;
     border-width: 2px;
@@ -240,27 +251,27 @@ body{
     border-radius: 4px;
     padding: 3px;
     margin-left: auto;
-    background-image: url(/assets/images/background_blue.webp);
+    background-image: url(assets/images/background_blue.webp);
     text-decoration: none;
     color: black;
     width: 10%;
     height: 10%;
 }
 .nav_b:hover{
-    background-image: url(/assets/images/background_green.webp);
+    background-image: url(assets/images/background_green.webp);
 }
 #navbar{
     border-radius: 0px;
     width: 90%;
     margin: auto;
-    background-image: url(/assets/images/background_purple.webp);
+    background-image: url(assets/images/background_purple.webp);
 }
 
 .review{
     border-radius: 8px;
     border-style: solid;
     border-width: 2px;
-    background-image: url(/assets/images/background_blue.webp);
+    background-image: url(assets/images/background_blue.webp);
     height: 50px;
     box-shadow: 3px 3px 3px;
     width: 230px;

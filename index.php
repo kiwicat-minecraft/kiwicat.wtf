@@ -1,4 +1,15 @@
-<!DOCTYPE html>
+<?php
+$host = $_SERVER['HTTP_HOST'];
+
+if (strpos($host, 'localhost') !== false || strpos($host, '127.0.0.1') !== false) {
+    $base_path = '/kiwicat.wtf/';
+} else {
+    $base_path = '/';
+}
+?>
+
+
+<!DOCTYPE php>
 
 <html lang="en">
 
@@ -9,7 +20,7 @@
 
             <script src="https://kit.fontawesome.com/1c457c6875.js" crossorigin="anonymous"></script>
 
-            <link rel="stylesheet" href="/assets/css/style.css">
+            <link rel="stylesheet" href="assets/css/style.php">
 
             <meta charset="UTF-8">
 
@@ -39,28 +50,28 @@
         <div class="dropdown">
             <button>Pages</button>
             <div class="content">
-                <a class="link" href="/reviews/">Reviews</a>
-                <a class="link" href="/discord/"><i class="fa-brands fa-discord" style="color: #501fe2;"></i>Discord</a>
-                <a class="link" href="/catalonia/">Catalonia</a>
-                <a class="link" href="/calculator/">Calculator</a>
-                <a class="link" href="/pokemon/">Pokemon Data</a>
-                <a class="link" href="/minecraft/skins/">Skin Data</a>
-                <a class="link" href="/news/">News</a>
-                <a class="link" href="/pronouns">Pronouns</a>
+                <a class="link" href="reviews/">Reviews</a>
+                <a class="link" href="discord/"><i class="fa-brands fa-discord" style="color: #501fe2;"></i>Discord</a>
+                <a class="link" href="catalonia/">Catalonia</a>
+                <a class="link" href="calculator/">Calculator</a>
+                <a class="link" href="pokemon/">Pokemon Data</a>
+                <a class="link" href="minecraft/skins/">Skin Data</a>
+                <a class="link" href="news/">News</a>
+                <a class="link" href="pronouns">Pronouns</a>
             </div>
         </div>
         <header><h1 class="title" style="display: inline;">Kiwicat0_0</h1></header>
 
         
         <p style="display: inline;">go visit </p>
-        <a href="/catalonia/" id="cat" class="link" style="display: inline;">Catalonia</a>
+        <a href="catalonia/" id="cat" class="link" style="display: inline;">Catalonia</a>
         <br>
         
         <hr color="black">
         <div id="main">
             <section>
                 <div class="text" id="me" align="center">
-                    <img alt="Icon of Kiwicats Profile Picture" id="kiwi" class="icons" src="/assets/images/avatar.webp" width="100">
+                    <img alt="Icon of Kiwicats Profile Picture" id="kiwi" class="icons" src="assets/images/avatar.webp" width="100">
                     <i class="fa-brands fa-twitch" style="display: inline;"></i>
                     <h2 style="display: inline;">About Me</h2>
                     <i class="fa-brands fa-youtube" style="display: inline;"></i>
@@ -81,12 +92,12 @@
             <br>
             <div class="text" id="newsb" style="width: 91%; margin: auto; height: 130%;">
                 <h2>News</h2>
-                <embed class="news" src="/news/news_8.html" style="height: 70%;">
-                <embed class="news" src="/news/news_7.html" style="height: 70%;">
-                <embed class="news" src="/news/news_6.html" style="height: 70%;">
-                <embed class="news" src="/news/news_5.html" style="height: 70%;">
-                <embed class="news" src="/news/news_4.html" style="height: 70%;">
-                <embed class="news" src="/news/news_3.html" style="height: 70%;">
+                <embed class="news" src="news/news_8.html" style="height: 70%;">
+                <embed class="news" src="news/news_7.html" style="height: 70%;">
+                <embed class="news" src="news/news_6.html" style="height: 70%;">
+                <embed class="news" src="news/news_5.html" style="height: 70%;">
+                <embed class="news" src="news/news_4.html" style="height: 70%;">
+                <embed class="news" src="news/news_3.html" style="height: 70%;">
                 
             </div>
 
@@ -99,16 +110,16 @@
                 <p>
                     <a class="link" href="mailto:kiwicat@kiwicat.cat">kiwicat@kiwicat.cat</a> for business 
                     <br>
-                    <a class="link" href="/impressum/">impressum</a>
+                    <a class="link" href="impressum/">impressum</a>
                 </p>
                
             </div>
         </footer>
-        <img id="nyan_cat"  src="/assets/images/Nyan-Cat.png" alt="nyan Cat">
+        <img id="nyan_cat"  src="assets/images/Nyan-Cat.png" alt="nyan Cat">
 
         
         
-        <script src="/assets/scripts/index.js"></script>
+        <script src="assets/scripts/index.js"></script>
 
         
         
