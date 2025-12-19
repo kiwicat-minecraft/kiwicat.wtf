@@ -239,7 +239,7 @@ body{
     border: 2px solid;
     border-radius: 4px;
     padding: 3px;
-    margin-left: auto;
+    margin: auto;
     background-image: url(/assets/images/background_blue.webp);
     text-decoration: none;
     color: black;
@@ -301,4 +301,64 @@ body{
 
 .spoiler:hover{
     background-color: white;
+}
+.score{
+    text-shadow: none;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    display: inline-block;
+    background-color: white;
+    border-radius: 4px;
+    padding: 3px;
+}
+#score_5{
+    color: #997100;
+    animation-name: score_5;
+}
+#score_6{
+    color: #808E00;
+}
+@keyframes score_10{
+    33%{transform: rotate(0.1turn);}
+    66%{transform: rotate(-0.1turn);}
+}
+@keyframes score_9{
+    33%{transform: rotate(0.09turn);}
+    66%{transform: rotate(-0.09turn);}
+}
+
+@keyframes score_8{
+    33%{transform: rotate(0.08turn);}
+    66%{transform: rotate(-0.08turn);}
+}
+
+@keyframes score_7{
+    33%{transform: rotate(0.07turn);}
+    66%{transform: rotate(-0.07turn);}
+}
+
+@keyframes score_6{
+    33%{transform: rotate(0.06turn);}
+    66%{transform: rotate(-0.06turn);}
+}
+
+@keyframes score_5{
+    33%{transform: rotate(0.05turn);}
+    66%{transform: rotate(-0.05turn);}
+}
+@keyframes score_4{
+    33%{transform: rotate(0.04turn);}
+    66%{transform: rotate(-0.04turn);}
+}
+@keyframes score_3{
+    33%{transform: rotate(0.03turn);}
+    66%{transform: rotate(-0.03turn);}
+}
+@keyframes score_2{
+    33%{transform: rotate(0.02turn);}
+    66%{transform: rotate(-0.02turn);}
+}
+@keyframes score_1{
+    33%{transform: rotate(0.01turn);}
+    66%{transform: rotate(-0.01turn);}
 }

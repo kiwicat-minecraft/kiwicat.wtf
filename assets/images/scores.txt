@@ -1,0 +1,36 @@
+/* Coolors Exported Palette - https://coolors.co/ff0000-e61c00-cc3900-b35500-997100-808e00-66aa00-4dc600-33e300-1aff00 */
+
+- CSV
+
+FF0000,E61C00,CC3900,B35500,997100,808E00,66AA00,4DC600,33E300,1AFF00
+
+- With #
+
+#FF0000, #E61C00, #CC3900, #B35500, #997100, #808E00, #66AA00, #4DC600, #33E300, #1AFF00
+
+- Array
+
+["FF0000","E61C00","CC3900","B35500","997100","808E00","66AA00","4DC600","33E300","1AFF00"]
+
+- Object
+
+{"Red":"FF0000","Pure Red":"E61C00","Red Ochre":"CC3900","Autumn Ember":"B35500","Golden Earth":"997100","Olive":"808E00","Bright Fern":"66AA00","Bright Fern 2":"4DC600","Radioactive Grass":"33E300","Lime":"1AFF00"}
+
+- Extended Array
+
+[{"name":"Red","hex":"FF0000","rgb":[255,0,0],"cmyk":[0,100,100,0],"hsb":[0,100,100],"hsl":[0,100,50],"lab":[53,80,67]},{"name":"Pure Red","hex":"E61C00","rgb":[230,28,0],"cmyk":[0,88,100,10],"hsb":[7,100,90],"hsl":[7,100,45],"lab":[49,71,63]},{"name":"Red Ochre","hex":"CC3900","rgb":[204,57,0],"cmyk":[0,72,100,20],"hsb":[17,100,80],"hsl":[17,100,40],"lab":[47,56,59]},{"name":"Autumn Ember","hex":"B35500","rgb":[179,85,0],"cmyk":[0,53,100,30],"hsb":[28,100,70],"hsl":[28,100,35],"lab":[47,34,56]},{"name":"Golden Earth","hex":"997100","rgb":[153,113,0],"cmyk":[0,26,100,40],"hsb":[44,100,60],"hsl":[44,100,30],"lab":[50,7,57]},{"name":"Olive","hex":"808E00","rgb":[128,142,0],"cmyk":[10,0,100,44],"hsb":[66,100,56],"hsl":[66,100,28],"lab":[56,-20,60]},{"name":"Bright Fern","hex":"66AA00","rgb":[102,170,0],"cmyk":[40,0,100,33],"hsb":[84,100,67],"hsl":[84,100,33],"lab":[63,-44,64]},{"name":"Bright Fern","hex":"4DC600","rgb":[77,198,0],"cmyk":[61,0,100,22],"hsb":[97,100,78],"hsl":[97,100,39],"lab":[71,-62,70]},{"name":"Radioactive Grass","hex":"33E300","rgb":[51,227,0],"cmyk":[78,0,100,11],"hsb":[107,100,89],"hsl":[107,100,45],"lab":[79,-75,77]},{"name":"Lime","hex":"1AFF00","rgb":[26,255,0],"cmyk":[90,0,100,0],"hsb":[114,100,100],"hsl":[114,100,50],"lab":[88,-85,83]}]
+
+- XML
+
+<palette>
+  <color name="Red" hex="FF0000" r="255" g="0" b="0" />
+  <color name="Pure Red" hex="E61C00" r="230" g="28" b="0" />
+  <color name="Red Ochre" hex="CC3900" r="204" g="57" b="0" />
+  <color name="Autumn Ember" hex="B35500" r="179" g="85" b="0" />
+  <color name="Golden Earth" hex="997100" r="153" g="113" b="0" />
+  <color name="Olive" hex="808E00" r="128" g="142" b="0" />
+  <color name="Bright Fern" hex="66AA00" r="102" g="170" b="0" />
+  <color name="Bright Fern" hex="4DC600" r="77" g="198" b="0" />
+  <color name="Radioactive Grass" hex="33E300" r="51" g="227" b="0" />
+  <color name="Lime" hex="1AFF00" r="26" g="255" b="0" />
+</palette>
